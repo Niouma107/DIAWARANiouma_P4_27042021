@@ -366,9 +366,10 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 138px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+    
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -772,8 +773,8 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-}
 
+}
 .tc-white {
     color: white!important;
     font-weight: 700;
@@ -819,7 +820,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("./img/IMG_compresse/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
