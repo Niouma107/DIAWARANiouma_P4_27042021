@@ -326,6 +326,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-left: 31px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -1015,6 +1016,27 @@ h4 {
     form {
         padding: 5px;
     }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;}
+       @media(min-width:572px)and (max-width:992px){
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }}
+        p.text-center.white {
+            text-align: center;
+        } 
     .close-lightbox {
         display: inline-block;
     }
@@ -1042,3 +1064,18 @@ h4 {
         text-align: center;
     }
 }
+.cta-hero {
+    margin-top: 22px;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 450px;}
+   
+    p.text-center.white {
+        text-align: center;}
+
+        .social{max-width:400px;margin:auto auto auto auto;flex-direction: row;
+            display: flex;justify-content: center;}
+        
