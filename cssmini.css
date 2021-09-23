@@ -14,14 +14,11 @@ p.text-center.white {
     text-align: center;
 }
 
-.form-group {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 20px;
-	flex-direction: column;
-	
+.margin{
+    margin-left: 30%;
 }
+.margin2{margin-left: 23%;}	
+
 
     .nav > li {
         float: left;
@@ -31,27 +28,17 @@ p.text-center.white {
         list-style: none;
     }
 
-    .col-sm-122 {
-        min-width: 1300px;
-    }
-.margin{
-    margin-left:28%;
-}
+    
+    
+
+
     @media only screen and (min-width:375px) and (max-width: 992px){
         p.text-center.white {
             text-align: center;
             margin-left: 0%; 
 
         }   
-            .form-group {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 20px;
-                flex-direction: column;
-                flex-wrap: wrap;
-                margin-left: 0px;
-            }
+        .margin2{margin-left: 11%;}	   
 
             
                 
@@ -84,6 +71,12 @@ p.text-center.white {
 }
     @media  screen and (max-width:572px) {
     
+    .margin{
+        margin-left:0%;
+        margin-right: 0%;
+    
+    }
+    
 
     .social {
         max-width: 400px;
@@ -97,16 +90,7 @@ p.text-center.white {
         text-align: center;
         min-width:300px
     }
-    .form-group {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: 0px;
-        max-width: 320px;
-        }
+   
         
         .navbar-brand img{
             text-align: center;
